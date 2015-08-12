@@ -9,10 +9,10 @@ resources:
 
 When you type python my_program.py at the terminal, you're running a Python interpreter, that is, a program that understands Python and knows how to execute the code you wrote. Every programming language needs another program to translate it into something the computer's CPU can deal with.
 
-For this challenge, you are going to write an interpreter for your own programming language, called "Cussy" (from CSSI).
+For this challenge, you are going to write an interpreter for your own programming language, called "Pythonic" (from CSSI).
 
 Read the [Norvig article](http://norvig.com/lispy.html) linked above. Read it again. This is the model we'll be following in this challenge. Read it a third time.
-We'll start Cussy off with some simple math operations:
+We'll start Pythonic off with some simple math operations:
 
 ```python
 4 + 5
@@ -20,7 +20,7 @@ We'll start Cussy off with some simple math operations:
 1 - 1 - 1 - 1 - 1
 8 / 0
 ```
-For now, executing a math expression like one of those above should print out the result to the user. Math in Cussy should obey the standard order of operations. Once you get the basic ones, add more; Python's list is here. Add support for parenthesized math operations, so that 7 - 5 - 4 is different than 7 - (5 - 4). 3. Add logical operators like <, >, <=, >=, ==, and != to Cussy. These should yield values of True or False, like Python. 4. Add the ability to store the result of expressions to named variables and retrieve the value later. Code like this should now work:
+For now, executing a math expression like one of those above should print out the result to the user. Math in Pythonic should obey the standard order of operations. Once you get the basic ones, add more; Python's list is here. Add support for parenthesized math operations, so that 7 - 5 - 4 is different than 7 - (5 - 4). 3. Add logical operators like <, >, <=, >=, ==, and != to Cussy. These should yield values of True or False, like Python. 4. Add the ability to store the result of expressions to named variables and retrieve the value later. Code like this should now work:
 
 ```python
 a = 4 + 5
@@ -49,7 +49,7 @@ Just like in Python, I should be able to do something like this:
 
 b = a < 5 if (b) { print(a) }
 ```
-7. Now add the ability to define your own functions to Cussy. Start off easy and work your way up to more complex forms:
+7. Now add the ability to define your own functions to Pythonic. Start off easy and work your way up to more complex forms:
 
 ```python
 function my_function() {
@@ -62,7 +62,7 @@ function my_function(a) {
     return 55 + a
 }
 ```
-+ Your major goal here is to be able to write and run this Cussy code:
++ Your major goal here is to be able to write and run this Pythonic code:
 
 ```python
 function factorial(val) {
