@@ -75,4 +75,4 @@ result = factorial(10)
 print(result)
 ```
 
-<a href='https://learn.co/lessons/cssi-5-python-your-language' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cssi-5-python-your-language' title='Your Own Language Challenge'>Your Own Language Challenge</a> on Learn.co and start learning to code for free.</p>
